@@ -1,0 +1,16 @@
+For a given array of transactions, group all the transaction by item name, return an array of string
+where each string contains the item name followed by a SPACE and the number of associated
+transactions, then sort the array in descending order by transaction count, then ascending 
+alphabetically by item name for items with matching transaction counts.
+
+
+For Example :
+
+Transaction = ['purse', 'purse', 'belt', 'jeans', 'jeans']
+
+There are 2 items with 2 transaction each : 'purse' and 'jeans' 
+     Alphabetical order for above TXN is 'jeans' and 'purse'
+AND
+There is 1 item with 1 transaction : 'belt'
+
+The required output is : ['jeans 2', 'purse 2', 'belt 1']
